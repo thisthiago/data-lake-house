@@ -21,7 +21,7 @@ enem = (
     .load("s3://datalake-igti-edc-tf/raw-data/enem")
 )
 
-# Escreve a tabela em staging em formato delta
+# Escreve a tabela em staging em formato delta # 
 print("Writing delta table...")
 (
     enem
